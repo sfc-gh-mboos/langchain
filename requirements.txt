@@ -1,0 +1,73 @@
+# Core dependencies
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.10.0
+pytest-cov>=4.0.0
+pytest-xdist>=3.0.0
+
+# LangChain dependencies
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+langchain-tests>=0.1.0
+langchain-text-splitters>=0.0.1
+
+# Snowflake dependencies
+snowflake-connector-python>=3.6.0
+snowflake-sqlalchemy>=1.5.0
+
+# Vector and ML dependencies
+numpy>=1.24.0
+pandas>=1.5.0
+scikit-learn>=1.3.0
+sentence-transformers>=2.2.0
+
+# Performance monitoring
+psutil>=5.9.0
+memory-profiler>=0.60.0
+
+# Testing utilities
+responses>=0.23.0
+httpx>=0.24.0
+aioresponses>=0.7.0
+
+# Development tools
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.2.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Database utilities
+sqlalchemy>=1.4.0
+alembic>=1.11.0
+
+# Async support
+asyncio>=3.4.3
+aiofiles>=23.0.0
+
+# Data validation
+pydantic>=2.0.0
+marshmallow>=3.19.0
+
+# Logging and monitoring
+structlog>=23.0.0
+prometheus-client>=0.17.0
+
+# Security
+cryptography>=41.0.0
+
+# Optional: OpenAI for embeddings comparison
+openai>=1.0.0
+
+# Optional: Other vector stores for benchmarking
+chromadb>=0.4.0
+pinecone-client>=2.2.0
+qdrant-client>=1.6.0
+weaviate-client>=3.20.0
